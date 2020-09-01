@@ -31,17 +31,37 @@ Questions
 
     10. What is a class? 
         A: Similar to an id, except can be put on multiple elements on a page instead of just one
-        
-    11. What elements can I add a class to? 
+
+    11. What elements can I add a class to?
+        A: Also similar to an id, a class is a global attribute, so any element barring the tags listed in Question 8's answer.
+
     12. How many times can I use the same class on a page? 
+        A: As many times as necessary
+
     13. How do I get my link to open in a new tab?
+        A: target="_blank"
+
     14. What is the alt attribute in the image tag used for? 
+        A: Alternative text that shows when an image is broken or is read by screenreaders
+
     15. How do I reference an id?
+        A: href="#id-name", or in CSS just #id-name
+
     16. What is the difference between a section and a div
+        A: Sections are semantic, while divs are not
+
     17. What is CSS used for? 
+        A: To style a webpage - basically make it look designed and pretty
+
     18. How to we select an element? Example - every h2 on the page
+        A: h2 { property: value; }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A: Classes can be put on multiple elements that need the same styling, such as when some paragraphs need to be styled differently from the others, while ids can only be used on one element per id, such as defining sections for styling uniquely from each other. Classes are also less specific than ids in CSS. 
+
     20. How do we select classes in CSS?
+        A: .class-name { property: value; }
+
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
