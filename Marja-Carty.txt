@@ -93,12 +93,36 @@ Questions
         A: /* This is a comment */
 
     31. How do I find out what file I am in, when I am using the command line? 
+        A: pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        A: ls -la
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        A: rm <filename> - there's no confirmation of deletion and no way to get the deleted file back
+
     34. Why should I use version control? 
+        A: Version control allows for tracking changes made to a document and the ability to revert back to any previous commit
+
     35. How often should I commit to github?
+        A: Every 15-20 minutes or after major feature/bug fixes
+
     36. What is the command we would use to push our repo up to github? 
+        A: git push -u origin <branch-name> - only the first time, and every subsequent time is: git push
+
     37. Walk me through Lambda's git flow. 
+        A. 1. Fork the assignment repo
+           2. Add TL as a collaborator
+           3. Clone repo onto local machine
+           4. Change into the cloned project directory
+           5. Create branch titled with our name (git checkout -b firstName-lastName)
+           6. Complete assignment
+                a. every twenty minutes or after major changes, git add ./git commit -m "message"/git push
+           7. When finished, submit a pull request on our named branch
+                a. Be sure to change base repo to our own forked repo instead of Lambda's
+           8. Add TL as a reviewer
+           9. Submit pull request
+           10. Do not merge our own pull requests
 
 Stretch Questions
 
