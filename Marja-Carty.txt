@@ -127,7 +127,18 @@ Questions
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        A: Block level elements take up the entire width of the container; inline elements only take up the space they need on the page
+
     2. What happens when an element is positioned absolutely? 
+        A: It's taken out of document flow and does not "save" space on the page for its original placement. It's positioned relative to its parent element, or if there isn't one, the entire page. It also scrolls with the page rather than staying pinned to a location in the viewport.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        A: element { display: inline-block; }
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        A: div, paragraph, header (div, p, h1-h6) / span, anchor (span, a) / image (img)
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        A: All elements exist in their own "box". Block level elements have boxes that take up the entire width of the screen, while inline boxes only take up the space needed for the element. First, in the very center, is the content itself. The next layer is the padding, which is the area between the content and the border. Next is the border itself, and finally the margins are the space around the border and the neighboring elements. All of these can be set with CSS properties. 
+
+        To adjust the default box model, which is when the width property of an element describes only the content size and leaves out the padding, border, and margin, simply add the CSS rule: element { box-sizing: border-box; }
