@@ -3,15 +3,35 @@ link to finished codepen: https://codepen.io/Marja-Carty/pen/VwazJgg?editors=110
 
 Questions
     1. What is Semantic HTML? 
+        A: HTML that provided meaning to markup
+
     2. What is HTML used for? 
+        A: Marking up the content of a webpage
+
     3. What is an attribute and where do we put it? 
+        A: Attributes are additional information about an element and they go in the opening tag of an element
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+        A: h1 is used for the most important header, and there should only be one on a given webpage
+
     5. Name two tags that have required attributes
+        A: img (src) and a (href)
+
     6. What do we put in the head of our HTML document? 
+        A: Metadata related to the page; character encoding, links to stylesheets, document title
+
     7. What is an id? 
+        A: An attribute for an HTML element that uniquely names it on a page - used for targeting in CSS/JS
+
     8. What elements can I add an id to? 
+        A: ids are a global attribute, so they can be added to any element barring a few tags found in the <head> section or <script> tags
+
     9. How many times can I use the same id on a page? 
+        A: Once
+
     10. What is a class? 
+        A: Similar to an id, except can be put on multiple elements on a page instead of just one
+        
     11. What elements can I add a class to? 
     12. How many times can I use the same class on a page? 
     13. How do I get my link to open in a new tab?
